@@ -1,0 +1,35 @@
+.container{ 
+	margin:auto;
+	background-color: black;
+}
+a{
+	text-decoration: none;
+	color: cyan;
+	border: 2px solid cyan;
+}
+.p-box{
+	width: 100%;
+	height: 700px;  
+	margin-top: 30px;
+	position: relative;
+	background-image: url(mine.png);
+	color: cyan;
+}
+.p-box h1{
+	position: absolute;
+	top:100px;
+	left: 40px;
+	font-size: 70px;
+}
+.p-box p{
+ position: absolute;
+ bottom: 40px;
+ left: 200px;
+ font-size:50px
+}
+.p-box h2{
+ position: absolute;	
+ font-size: 400px;
+ right: 40px;
+ bottom: 5px;
+}
