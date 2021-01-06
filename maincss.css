@@ -5,7 +5,7 @@
 body{
 	margin:0;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 30px;
 	line-height: 1.6em;
 	background-color:darkcyan;
 }
@@ -33,17 +33,17 @@ a:hover{
 	padding-top: 20px;
 	padding-bottom: 30px;
 	color:ghostwhite;
-	font-size: x-large;s
+	font-size:40PX ;
 	margin: auto;
 	background-image: url(show.png);
 	padding-left:20px;
 
 }
-#mainheader{
+.mainheader{
 	background-color:darkcyan;
 	color: cornsilk;
-	font-size: 40px;
-	padding: 30px;
+	font-size: 100px;
+	padding: 80px;
 	text-decoration: underline;
 }
 #navbar{
@@ -51,11 +51,107 @@ a:hover{
 	border-radius: 0%;
 }
 #navbar ul{
-	padding: 0;
+	padding: 40px;
 	list-style: none;
 	padding: 20px;
 }
 #navbar li{
 	display: inline;
 	padding-left: 10px;	
+	font-size: 40px;
+}
+@media screen and  (max-width: 800px){
+	   body{
+		   margin:0;
+		   font-family: Arial, Helvetica, sans-serif;
+		   font-size: 20px;
+		   line-height: 1.6em;
+	   }
+	   .container{
+		   margin: auto;
+		   width: 85%;
+		   overflow: hidden;
+		   font-family: Arial, Helvetica, sans-serif;
+		   padding-bottom: 30px;
+		   padding-top: 30px;
+	   }
+	   h2{
+		   padding-bottom: 20px;
+	   }
+	   #showcase{
+		   padding-top: 10px;
+		   padding-bottom: 20px;
+		   font-size:30PX ;
+		   margin: auto;
+		   background-image: url(show.png);
+		   padding-left:15px;
+	   
+	   }
+	   .mainheader{
+		   font-size: 60px;
+		   padding: 30px;
+		   text-decoration: underline;
+	   }
+	   #navbar{
+		   background-color: black;
+		   border-radius: 0%;
+	   }
+	   #navbar ul{
+		   padding: 30px;
+		   list-style: none;
+		   padding: 15px;
+	   }
+	   #navbar li{
+		   display: inline;
+		   padding-left: 10px;	
+		   font-size: 30px;
+	   }
+	
+}
+@media screen and  (max-width: 455){
+	body{
+		margin:0;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 15px;
+		line-height: 1.6em;
+	}
+	.container{
+		margin: auto;
+		width: 90%;
+		overflow: hidden;
+		font-family: Arial, Helvetica, sans-serif;
+		padding-bottom: 23px;
+		padding-top: 23px;
+	}
+	h2{
+		padding-bottom: 15px;
+	}
+	#showcase{
+		padding-top: 10px;
+		padding-bottom: 20px;
+		font-size:25px ;
+		margin: auto;
+		background-image: url(show.png);
+		padding-left:15px;
+	
+	}
+	.mainheader{
+		font-size: 50px;
+		padding: 20px;
+		text-decoration: underline;
+	}
+	#navbar{
+		background-color: black;
+		border-radius: 0%;
+	}
+	#navbar ul{
+		padding: 30px;
+		list-style: none;
+		padding: 15px;
+	}
+	#navbar li{
+		display: inline;
+		padding-left: 10px;	
+		font-size: 25px;
+	}
 }
