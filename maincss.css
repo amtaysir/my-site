@@ -8,7 +8,11 @@
 .boxes div{
 	border: 1px black solid;
 	padding: 10px;
+	color: whitesmoke;
 }
+.boxes div h3{
+	color:black;
+} 
 .box-1{
    flex: 2;
 }
@@ -77,6 +81,12 @@ a:hover{
 footer{
 	padding-top: 70px;
 	padding-left: 30px;
+}
+.last a{
+	color: black;
+}
+.last a:hover{
+	color: blanchedalmond;
 }
 @media screen and  (max-width: 800px){
 	   body{
